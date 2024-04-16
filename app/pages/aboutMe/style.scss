@@ -1,0 +1,140 @@
+@media (min-width: 1000px) {
+    .AboutMe__Information {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .AboutMe__Information_description_p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .AboutMe__Skills__skills_element {
+        font-size: 30px;
+    }
+
+    .AboutMe__Information {
+        grid-template-rows: 100vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .AboutMe__Information {
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .AboutMe__Information_description_p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .AboutMe__Skills__skills_element {
+        font-size: 20px;
+
+    }
+
+    .AboutMe__Information {
+        padding-top: 50px;
+        grid-template-rows: 55vh;
+    }
+}
+
+.indentation {
+    display: block;
+    height: 1px;
+    border: 1px solid;
+    margin: 20px 0 ;
+    background-color:  #F3BA22;
+}
+
+.AboutMe {
+    display: block;
+    padding: 10px 0;
+}
+
+.AboutMe__Skills__skills_element {
+    gap: 10px;
+}
+
+.AboutMe__Information {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.AboutMe__Information_description {
+    width: 80%;
+}
+
+.AboutMe__Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 10px;
+}
+
+.AboutMe__Skills_Title {
+    font-size: 28px;
+}
+
+.AboutMe__Skills__List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+
+// AboutMe Experience
+
+@media (min-width: 1000px) {
+    .AboutMe__Experience {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr auto
+        
+    }
+}
+
+@media (max-width: 1000px) {
+    .AboutMe__Experience {
+        grid-template-rows: auto;
+    }
+}
+
+.AboutMe__Experience {
+    display: grid;
+    margin: 0 40px;
+    justify-items: start;
+    gap: 20px;
+}
+
+.AboutMe__Experience__Title {
+    font-size: 30px;
+}
+
+.AboutMe__Experience__List {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.AboutMe__Experience__List_Item__name {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.AboutMe__Experience__Responsibilities__List {
+    margin: 10px;
+}
+
+.AboutMe__Experience__Responsibilities__List__ul {
+    list-style: disc;
+    font-size: 20px;
+}
+
+.AboutMe__Experience__Responsibilities__List__li{
+    margin-bottom: 10px;
+}

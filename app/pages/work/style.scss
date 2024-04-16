@@ -1,0 +1,117 @@
+@media (min-width: 1000px) {
+    .Work__information {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Work__information__project__image {
+        height: 400px;
+        width: 700px;
+    }
+
+    .font_size_30px {
+        font-size: 30px;
+    }
+    
+    .font_size_24px {
+        font-size: 24px;
+    }
+
+    .Work__information__project__des__info {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Work__information {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Work__information__project__image {
+        height: 150px;
+        width: 300px;
+    }
+
+    .Work__information__project_list__list {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Work__information__project_list {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Work__information__project__des__info {
+        width: 200px;
+    }
+
+    .font_size_30px {
+        font-size: 16px;
+    }
+    
+    .font_size_24px {
+        font-size: 12px;
+    }
+}
+
+.Work {
+    display: block;
+    min-height: 100vh;
+    padding: 10px 0;
+}
+
+.Work__information {
+    padding-top: 60px;
+    justify-items: center;
+}
+
+.Work__information__project {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.Work__information__project__image_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #F3BA22;
+}
+
+.Work__information__project_list__element {
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.Work__information__project__des__list {
+    list-style: disc;
+    margin-left: 10px;
+}
+
+.Work__information__project__des__list__element {
+    margin-bottom: 5px;
+}
+
+.Work__information__project__des__info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.Project__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

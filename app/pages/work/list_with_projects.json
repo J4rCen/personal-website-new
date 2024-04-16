@@ -1,0 +1,30 @@
+{
+    "Projects": {
+        "Etalon pet food": {
+            "images": "/project/petFood.jpg",
+            "Description": "Website layout for a pet food store",
+            "Possibilities": ["Switching the theme of the site", "Card with information about the product"],
+            "Stack": "Html, Css, JavaScript",
+            "Link": "https://petfoodstore-6259c.firebaseapp.com/",
+            "GitLink": "https://github.com/J4rCen/PetFoodStore"
+        },
+
+        "Messenger": {
+            "images": "/project/messenger.jpg",
+            "Description": "This is a pet project, with a working chat system, there is also a user profile with the ability to edit user data.",
+            "Possibilities": ["Authorization/registration", "Working chat system", "User profile"],
+            "Stack": "TS, Handlebars, Vite, Sass, Express, NodeJs",
+            "Link": "https://spontaneous-parfait-a4c2bf.netlify.app/",
+            "GitLink": "https://github.com/J4rCen/middle.messenger.praktikum.yandex"
+        },
+
+        "Old Personal site": {
+            "images": "/project/oldPersonalSite.jpg",
+            "Description": "Personal portfolio website",
+            "Possibilities": ["Slider with projects and certificates", "Sending mail."],
+            "Stack": "TypeScript, React, Scss, Express, Webpack, Node.js",
+            "Link": "https://davletov-danil.netlify.app/",
+            "GitLink": "https://github.com/J4rCen/my.website"
+        }
+    }
+}
