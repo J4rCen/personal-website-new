@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import type { NextApiRequest } from 'next';
 
-const resend = new Resend("re_PLDTwhPS_46hkovbxJBf3Y4mXxbMD39rk");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 interface dataProps {
   email: string,
