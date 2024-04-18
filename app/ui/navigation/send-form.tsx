@@ -16,6 +16,7 @@ export default function SendForm() {
                 }
             )
             
+
             await fetch(`/api/send`, {
                 method: "POST",
                 headers: {
