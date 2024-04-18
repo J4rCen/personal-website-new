@@ -8,15 +8,14 @@
 
     "Education": [
         {
-            "name": "Technical College of Management and Commerce", 
-            "des": "Information systems and programming", 
-            "date": "September 2018 - June 2022"
-        },
-
-        {
             "name": "Yandex Practicum", 
             "des": "Middle frontend developer", 
             "date": "September 2023 - January 2024"
+        },
+        {
+            "name": "Technical College of Management and Commerce", 
+            "des": "Information systems and programming", 
+            "date": "September 2018 - June 2022"
         }
     ],
 
