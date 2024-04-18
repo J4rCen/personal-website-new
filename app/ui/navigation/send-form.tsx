@@ -16,7 +16,7 @@ export default function SendForm() {
                 }
             )
             
-            await fetch(`http://localhost:3000/api/send?email=${email}&message=${message}`, {
+            await fetch(`https://personal-website-7y4f9vlr6-j4rcens-projects.vercel.app/api/send`, {
                 method: "POST",
                 headers: {
                     "Access-Control-Allow-Origin": "*"
