@@ -35,7 +35,7 @@ export default function AboutMe() {
                                 <p className="AboutMe__Information_description_p text_color_white">
                                     Hello! <br />
                                     My name is Danil, I’m a <span className="text_color_yellow">Frontend</span> developer <span className="text_color_yellow">with two years of commercial experience</span> building web applications <span className="text_color_yellow">using React</span> - from creating reusable components to integrating APIs and optimizing performance. I have a strong understanding of responsive design and UX/UI principles, and I quickly adapt to new projects and work effectively within a team.
-                                    I'm continuously developing my skills, keeping up with modern front-end tools and practices. <span className="text_color_yellow">I also have experience publishing my own project</span>, which has helped me gain a better understanding of the full development cycle.
+                                    I’m continuously developing my skills, keeping up with modern front-end tools and practices. <span className="text_color_yellow">I also have experience publishing my own project</span>, which has helped me gain a better understanding of the full development cycle.
                                 </p>
                         }
                     </div>
