@@ -2,29 +2,90 @@
     "Projects": {
         "Etalon pet food": {
             "images": "/project/petFood.jpg",
-            "Description": "Website layout for a pet food store",
-            "Possibilities": ["Switching the theme of the site", "Card with information about the product"],
+            "ru": {
+                "Description": "Макет сайта кормов домашних животных",
+                "Possibilities": [
+                    "Изменения темы сайта",
+                    "Карточки товаров с продуктами"
+                ]
+            },
+            "en": {
+                "Description": "Website layout for a pet food store",
+                "Possibilities": [
+                    "Switching the theme of the site",
+                    "Card with information about the product"
+                ]
+            },
             "Stack": "Html, Css, JavaScript",
             "Link": "https://petfoodstore-6259c.firebaseapp.com/",
             "GitLink": "https://github.com/J4rCen/PetFoodStore"
         },
-
         "Messenger": {
             "images": "/project/messenger.jpg",
-            "Description": "This is a pet project, with a working chat system, there is also a user profile with the ability to edit user data.",
-            "Possibilities": ["Authorization/registration", "Working chat system", "User profile"],
+            "ru": {
+                "Description": "Это пет проект, с рабочей системой чата, есть также профиль пользователя с возможностью редактирования пользовательских данных.",
+                "Possibilities": [
+                    "Авторизация/Регистрация",
+                    "Рабочая система чата",
+                    "Профиль пользователя"
+                ]
+            },
+            "en": {
+                "Description": "This is a pet project, with a working chat system, there is also a user profile with the ability to edit user data.",
+                "Possibilities": [
+                    "Authorization/registration",
+                    "Working chat system",
+                    "User profile"
+                ]
+            },
             "Stack": "TS, Handlebars, Vite, Sass, Express, NodeJs",
             "Link": "https://spontaneous-parfait-a4c2bf.netlify.app/",
             "GitLink": "https://github.com/J4rCen/middle.messenger.praktikum.yandex"
         },
-
         "Old Personal site": {
             "images": "/project/oldPersonalSite.jpg",
-            "Description": "Personal portfolio website",
-            "Possibilities": ["Slider with projects and certificates", "Sending mail."],
+            "ru": {
+                "Description": "Старая версия моего сайта визитки",
+                "Possibilities": [
+                    "Слайдер с проектами и сертификатами",
+                    "Отправка сообщений"
+                ]
+            },
+            "en": {
+                "Description": "Old version of my business card site",
+                "Possibilities": [
+                    "Slider with projects and certificates",
+                    "Sending mail."
+                ]
+            },
             "Stack": "TypeScript, React, Scss, Express, Webpack, Node.js",
             "Link": "https://davletov-danil.netlify.app/",
             "GitLink": "https://github.com/J4rCen/my.website"
+        },
+        "Track Habit": {
+            "images": "/project/trackHabit.jpg",
+            "ru": {
+                "Description": "Трекер привычек, выпущенный в RuStore",
+                "Possibilities": [
+                    "Создание привычек, на каждый день, на дни недели, и промежутки",
+                    "Статистика по определенной привычке",
+                    "Таймер",
+                    "Система уведомлений",
+                    "Реклама"
+                ]
+            },
+            "en": {
+                "Description": "Tracker of habits released in RuStore",
+                "Possibilities": [
+                    "Creating habits, for every day, for the days of the week, and intervals",
+                    "Statistics on a certain habit",
+                    "Timer",
+                    "Notifications system",
+                    "Advertising"
+                ]
+            },
+            "Stack": "React, React-Native, Expo, Ts, Zustand",
+            "Link": "https://www.rustore.ru/catalog/app/com.j4rcen.habit"
         }
     }
 }

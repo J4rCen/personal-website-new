@@ -1,8 +1,10 @@
+import { useLanguage } from "@/contexts/userLanguage"
 import { useState } from "react"
 
 export default function SendForm() {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const {language} = useLanguage()
 
     async function sendEmail(el: React.FormEvent) {
         el.preventDefault()
@@ -42,7 +44,7 @@ export default function SendForm() {
             <input 
                 type="email" 
                 className="Navigation_Menu__Send_Form__email Navigation_Menu__Send_Form__style font_ChakraPetch"
-                placeholder="Enter your email"
+                placeholder={language === 'ru' ? 'Укажите вышу почту' : 'Enter your email'}
                 value={email}
                 onChange={el => setEmail(el.target.value)}
                 required
@@ -55,13 +57,13 @@ export default function SendForm() {
                 id="message" 
                 cols={30} 
                 rows={10}
-                placeholder="Enter your message"
+                placeholder={language === 'ru' ? 'Введите сообщение' : 'Enter your message'}
                 value={message}
                 onChange={el => setMessage(el.target.value)}
                 required
             ></textarea>
 
-            <input className="Navigation_Menu__Send_Form__submit font_ChakraPetch" type="submit" value="Submit"/>
+            <input className="Navigation_Menu__Send_Form__submit font_ChakraPetch" type="submit" value={language === 'ru' ? 'Отправить' : 'Submit'}/>
         </form>
     )
 }

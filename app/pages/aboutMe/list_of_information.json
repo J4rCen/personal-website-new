@@ -1,68 +1,119 @@
 {
     "skillsElement": [
-        "Next.js", "TypeScript",
-        "React", "Sass", 
-        "Node.js", "Express", "MongoDB",
-        "PostgreSQL", "Docker", "Nginx"
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Zustand",
+        "RTK",
+        "Node.js",
+        "Nest.js",
+        "Mongoose",
+        "Sequelize"
     ],
-
-    "Education": [
-        {
-            "name": "Yandex Practicum", 
-            "des": "Middle frontend developer", 
-            "date": "September 2023 - January 2024"
-        },
-        {
-            "name": "Technical College of Management and Commerce", 
-            "des": "Information systems and programming", 
-            "date": "September 2018 - June 2022"
-        }
-    ],
-
-    "Certificates": [
-        {
-            "name": "Legacy JavaScript Algorithms and Data Structures", 
-            "des": "freeCodeCamp", 
-            "date": "June 2023", 
-            "href": "https://www.freecodecamp.org/certification/J4R/javascript-algorithms-and-data-structures"
-        }, 
-        {
-            "name": "Responsive Web Design", 
-            "des": "freeCodeCamp", 
-            "date": "April 2023", 
-            "href": "https://www.freecodecamp.org/certification/J4R/responsive-web-design"
-        }
-    ],
-
-    "Experience": [
-        {
-            "name": "Freelance", 
-            "des": "Freelance", 
-            "date": "November 2020 - Present"
-            
-        }, 
-        {
-            "name": "Leading technical support specialist", 
-            "des": "Russian Post", 
-            "date": "November 2022 - June 2023"
-        }
-    ],
-
-    "Responsibilities": {
-        "Freelance": [
-            "Creating personal websites with unique design and functionality that meet the client's needs.",
-            "Writing an efficient and reliable backend that meets the project's requirements.",
-            "Developing single-page application (SPA) websites using modern technologies and frameworks for optimal performance and user experience.",
-            "Implementing Server-Side Rendering (SSR) to improve SEO and overall website performance.",
-            "Designing and optimizing databases to ensure fast access to information and secure data storage.",
-            "Creating a convenient and functional backend API for interaction with other services and applications.",
-            "Coding websites based on designs in Figma with neat and modern design, taking into account all technical aspects and project requirements."
+    "ru": {
+        "Education": [
+            {
+                "name": "Яндекс практикум",
+                "des": "Мидл фронтенд разработчик",
+                "date": "Сентябрь 2023 - Январь 2024"
+            },
+            {
+                "name": "Технический колледж управления и коммерцией",
+                "des": "Информационные системы и программирования",
+                "date": "Сентябрь 2018 - Июнь 2022"
+            }
         ],
-
-        "Leading technical support specialist": [
-            "Ensuring uninterrupted operation of IT infrastructure and services for 70 post offices in the Leningrad region (70+ users)",
-            "Installation of workstations, setting up the network, setting up parcel terminals",
-            "Working in a team with developers, system administrators"
-        ]
+        "Certificates": [
+            {
+                "name": "Legacy JavaScript Algorithms and Data Structures",
+                "des": "freeCodeCamp",
+                "date": "Июнь 2023",
+                "href": "https://www.freecodecamp.org/certification/J4R/javascript-algorithms-and-data-structures"
+            },
+            {
+                "name": "Responsive Web Design",
+                "des": "freeCodeCamp",
+                "date": "Апрель 2023",
+                "href": "https://www.freecodecamp.org/certification/J4R/responsive-web-design"
+            }
+        ],
+        "Experience": [
+            {
+                "name": "Frontend разработчик",
+                "des": "SelSup",
+                "date": "Июль 2024 - Январь 2025"
+            },
+            {
+                "name": "Junior Frontend разработчик",
+                "des": "BIV",
+                "date": "Февраль 2023 - Март 2024"
+            }
+        ],
+        "Responsibilities": {
+            "SelSup": [
+                "Разрабатывал масштабируемые и переиспользуемые UI-компоненты на React, улучшая производительность и читаемость кода.",
+                "Создавал новые страницы с акцентом на UX/UI и адаптивный дизайн для различных устройств.",
+                "Сотрудничество с технической поддержкой для решения сложных вопросов, связанных с продуктом, требующих глубокого технического анализа.",
+                "Интегрировал REST API, обеспечивая стабильный и безопасный обмен данными между фронтендом и бэкендом."
+            ],
+            "BIV": [
+                "Разрабатывал переиспользуемые компоненты на React, способствуя модульности и повторному использованию кода.",
+                "Поддерживал и дорабатывал основной веб-сайт компании: исправление багов, улучшение интерфейса, внедрение новых функций.",
+                "Сотрудничал с старшими коллегами, помогая в разработке и решении технических задач."
+            ]
+        }
+    },
+    "en": {
+        "Education": [
+            {
+                "name": "Yandex Practicum",
+                "des": "Middle frontend developer",
+                "date": "September 2023 - January 2024"
+            },
+            {
+                "name": "Technical College of Management and Commerce",
+                "des": "Information systems and programming",
+                "date": "September 2018 - June 2022"
+            }
+        ],
+        "Certificates": [
+            {
+                "name": "Legacy JavaScript Algorithms and Data Structures",
+                "des": "freeCodeCamp",
+                "date": "June 2023",
+                "href": "https://www.freecodecamp.org/certification/J4R/javascript-algorithms-and-data-structures"
+            },
+            {
+                "name": "Responsive Web Design",
+                "des": "freeCodeCamp",
+                "date": "April 2023",
+                "href": "https://www.freecodecamp.org/certification/J4R/responsive-web-design"
+            }
+        ],
+        "Experience": [
+            {
+                "name": "Frontend developer",
+                "des": "SelSup",
+                "date": "July 2024 - January 2025"
+            },
+            {
+                "name": "Junior Frontend developer",
+                "des": "BIV",
+                "date": "February 2023 - March 2024"
+            }
+        ],
+        "Responsibilities": {
+            "SelSup": [
+                "Developed scalable and reusable UI components in React, improving performance and code readability.",
+                "Created new pages with a focus on UX/UI and responsive design for various devices.",
+                "Collaborated with technical support to resolve complex product-related issues requiring in-depth technical analysis.",
+                "Integrated REST APIs to ensure stable and secure data exchange between frontend and backend."
+            ],
+            "BIV": [
+                "Developed reusable React components, promoting modularity and code reuse.",
+                "Maintained and enhanced the company’s main website: fixing bugs, improving the interface, and implementing new features.",
+                "Collaborated with senior colleagues, helping in development and solving technical problems."
+            ]
+        }
     }
 }
