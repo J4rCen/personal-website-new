@@ -9,6 +9,8 @@
     gap: 20px;
     grid-template-rows: 1fr 1fr 60px;
     height: 100vh;
+    z-index: 100;
+    background-color: #151515;
 }
 
 .Navigation_Menu__Link {
@@ -57,13 +59,11 @@
 
 .Navigation_Menu_Language_Dropdown.drop-up {
     bottom: 100%;
-    /* Появляется выше кнопки */
     margin-bottom: 10px;
 }
 
 .Navigation_Menu_Language_Dropdown.drop-down {
     top: 100%;
-    /* Появляется ниже кнопки */
     margin-top: 10px;
 }
 

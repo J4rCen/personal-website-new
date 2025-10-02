@@ -35,16 +35,6 @@ export default function Work() {
 
     const WithDynamicImage = (image: string) => {
         return (
-            // <Image 
-            //     src={image}
-            //     alt="Picture of the author"
-            //     placeholder = 'empty'
-            //     className="Work__information__project__image"
-            //     sizes="(max-width: 1000px) 300px, (min-width: 1000px) 700px"
-            //     width={0}
-            //     height={0}
-            //     objectFit='cover'
-            // />
             <Image 
                 src={image}
                 alt="Picture of the author"
@@ -60,7 +50,6 @@ export default function Work() {
     return (
         <>
             <Navigation />
-
             <div className="Work bg_color_black font_ChakraPetch">
                 <div className="Work__information">
                     <div className="Work__information__project">
