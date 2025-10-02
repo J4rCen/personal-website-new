@@ -26,6 +26,54 @@
     justify-content: center;
     align-items: center;
     height: 50px;
+    position: relative;
+}
+
+.Navigation_Menu_Language {
+    position: absolute;
+    padding: 10px;
+    right: 20px;
+}
+
+.Navigation_Menu_Language_Select {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Navigation_Menu_Language_Dropdown {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #F3BA22;
+    background-color: #151515;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.Navigation_Menu_Language_Dropdown.drop-up {
+    bottom: 100%;
+    /* Появляется выше кнопки */
+    margin-bottom: 10px;
+}
+
+.Navigation_Menu_Language_Dropdown.drop-down {
+    top: 100%;
+    /* Появляется ниже кнопки */
+    margin-top: 10px;
+}
+
+.Navigation_Menu_Language_Dropdown_item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
 }
 
 .Navigation_Menu__Contacts {
@@ -50,7 +98,7 @@
     text-decoration: underline;
 }
 
-@media  (max-width: 600px) {
+@media (max-width: 600px) {
     .Navigation_Menu__Contacts {
         flex-direction: column-reverse;
     }

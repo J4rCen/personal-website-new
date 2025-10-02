@@ -1,6 +1,7 @@
+
 @font-face {
-	font-family: "ChakraPetch-Bold";
-	src: url("../public/font/ChakraPetch-Bold.ttf");
+	font-family: 'ArchiveUkr';
+	src: url('../public/font/ArchiveUkr.ttf');
 }
 
 html, body, div, span, applet, object, iframe,
@@ -51,7 +52,8 @@ table {
 // Global Style
 
 .font_ChakraPetch {
-	font-family: "ChakraPetch-Bold";
+	font-family: "ArchiveUkr";
+	// font-weight: 900;
 }
 
 .text_color_white{
