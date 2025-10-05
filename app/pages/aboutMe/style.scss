@@ -19,6 +19,8 @@
 
 @media (max-width: 1000px) {
     .AboutMe__Information {
+        gap: 100px;
+        margin-top: 90px;
         grid-template-rows: repeat(2, 1fr);
     }
     
@@ -29,7 +31,6 @@
 
     .AboutMe__Skills__skills_element {
         font-size: 20px;
-
     }
 
     .AboutMe__Information {
