@@ -1,0 +1,31 @@
+{
+    "aboutMe": {
+        "skills": "Навыки",
+        "education": "Образование",
+        "certificates": "Сертификаты",
+        "experience": "Опыт",
+        "responsibilities": "Обязанности",
+        "responsibilitiesChoose": "Что-бы увидеть обязанности выберете должность из колонки опыта",
+        "aboutMeInformation": "<p><span>Fullstack-разработчик с 4 годами практики.</span> Вырос от junior в BIV до middle в Selsup, затем ушёл во фриланс и собственные продукты. <span>В одиночку спроектировал и выпустил приложение в Play Market</span> — от Figma до деплоя. <span>Разрабатываю как веб-сайты, так и мобильные приложения</span> — мне важен продукт, а не платформа. Сейчас ищу команду или стартап: <span>хочу решать более сложные задачи</span> и расти рядом с опытными коллегами, а не упираться в потолок соло-разработки.</p>"
+    },
+    "work": {
+        "selectProject": "Выберете проект",
+        "projectDescription": "Описание проекта",
+        "description": "Описание:",
+        "possibilities": "Возможности:",
+        "stack": "Стек:",
+        "projectLink": "Ссылка на проект",
+        "gitLink": "Ссылка на GitHub",
+        "listProject": "Список проектов"
+    },
+    "navigation": {
+        "aboutMe": "Обо мне",
+        "works": "Работы",
+        "resume": "Резюме",
+        "lan": "Рус",
+        "link": "https://drive.google.com/file/d/1omxndvb-I8mzHLbbsXENtfE7T5hK1Hj9/view?usp=sharing",
+        "enterYourEmail": "Укажите вышу почту",
+        "enterYourMessage": "Введите сообщение",
+        "submit": "Отправить"
+    }
+}

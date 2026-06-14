@@ -9,15 +9,16 @@ import en from "public/united-states.png"
 import "./style.scss"
 import { useEffect, useRef, useState } from "react";
 import SendForm from "./send-form";
-import { useLanguage } from "@/contexts/userLanguage";
+import { useTranslation } from "react-i18next";
+import i18n from '@/i18n'
 
 export default function Navigation() {
-	const {language, setLanguage} = useLanguage()
 	const [visibilityNavigation, setVisibilityNavigation] = useState(true)
 	const [languageVisibility, setLanguageVisibility] = useState(false)
 	const [dropUp, setDropUp] = useState(false);
 	const triggerRef = useRef<any>(null);
 	const dropdownRef = useRef<any>(null);
+	const {t} = useTranslation()
 
 	useEffect(() => {
 		if (languageVisibility && triggerRef.current && dropdownRef.current) {
@@ -51,12 +52,12 @@ export default function Navigation() {
 						onClick={() => setLanguageVisibility(!languageVisibility)}
 					>
 						<Image
-							src={language === 'ru' ? ru : en}
+							src={i18n.language === 'ru' ? ru : en}
 							alt="language"
 							width={26}
 							height={22}
 						/>
-						<text>{language === 'ru' ? 'Рус' : 'Eng'}</text>
+						<p>{t('navigation.lan')}</p>
 					</div>
 
 					{languageVisibility && (
@@ -69,24 +70,24 @@ export default function Navigation() {
 									<div
 										className="Navigation_Menu_Language_Dropdown_item"
 										onClick={() => {
-											setLanguage('ru');
+											i18n.changeLanguage('ru')
 											setLanguageVisibility(false);
 										}}
 									>
 										<Image src={ru} alt="language" width={26} height={22} />
-										<text>Рус</text>
+										<p>Рус</p>
 									</div>
 								</li>
 								<li>
 									<div
 										className="Navigation_Menu_Language_Dropdown_item"
 										onClick={() => {
-											setLanguage('en');
+											i18n.changeLanguage('en');
 											setLanguageVisibility(false);
 										}}
 									>
 										<Image src={en} alt="language" width={26} height={22} />
-										<text>Eng</text>
+										<p>Eng</p>
 									</div>
 								</li>
 							</ul>
@@ -107,12 +108,12 @@ export default function Navigation() {
 		return (
 			<nav className={`Navigation_Menu bg_color_black Navigation_Menu__Open font_ChakraPetch ${visibilityNavigation ? "hidden" : ""}`}>
 				<div className="Navigation_Menu__Link">
-					<Link className="Navigation_Link text_color_white" href='/'>{language === 'ru' ? 'Обо мне' : 'About Me'}</Link>
-					<Link className="Navigation_Link text_color_white" href='/pages/work'>{language === 'ru' ? 'Работы' : 'Works'}</Link>
+					<Link className="Navigation_Link text_color_white" href='/'>{t('navigation.aboutMe')}</Link>
+					<Link className="Navigation_Link text_color_white" href='/pages/work'>{t('navigation.works')}</Link>
 					<a className="Navigation_Link text_color_white underline" target="blank" 
-						href={language === 'ru' ? 'https://drive.google.com/file/d/1omxndvb-I8mzHLbbsXENtfE7T5hK1Hj9/view?usp=sharing' : 'https://drive.google.com/file/d/1k7NYBNqih24SsJMgQjUYcGi4ihjH_X_F/view?usp=sharing'}
+						href={t('navigation.link')}
 					>
-						{language === 'ru' ? 'Резюме' : 'Resume'}
+						{t('navigation.resume')}
 					</a>
 				</div>
 
