@@ -1,10 +1,10 @@
-import { useLanguage } from "@/contexts/userLanguage"
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 
 export default function SendForm() {
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
-    const {language} = useLanguage()
+    const {t} = useTranslation()
 
     async function sendEmail(el: React.FormEvent) {
         el.preventDefault()
@@ -44,7 +44,7 @@ export default function SendForm() {
             <input 
                 type="email" 
                 className="Navigation_Menu__Send_Form__email Navigation_Menu__Send_Form__style font_ChakraPetch"
-                placeholder={language === 'ru' ? 'Укажите вышу почту' : 'Enter your email'}
+                placeholder={t('navigation.enterYourEmail')}
                 value={email}
                 onChange={el => setEmail(el.target.value)}
                 required
@@ -57,13 +57,13 @@ export default function SendForm() {
                 id="message" 
                 cols={30} 
                 rows={10}
-                placeholder={language === 'ru' ? 'Введите сообщение' : 'Enter your message'}
+                placeholder={t('navigation.enterYourMessage')}
                 value={message}
                 onChange={el => setMessage(el.target.value)}
                 required
             ></textarea>
 
-            <input className="Navigation_Menu__Send_Form__submit font_ChakraPetch" type="submit" value={language === 'ru' ? 'Отправить' : 'Submit'}/>
+            <input className="Navigation_Menu__Send_Form__submit font_ChakraPetch" type="submit" value={t("navigation.submit")}/>
         </form>
     )
 }

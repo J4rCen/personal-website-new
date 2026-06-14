@@ -1,14 +1,15 @@
 {
     "skillsElement": [
-        "React",
         "TypeScript",
-        "Next.js",
-        "Zustand",
-        "RTK",
+        "React",
         "Node.js",
-        "Nest.js",
-        "Mongoose",
-        "Sequelize"
+        "Zustand",
+        "Nest",
+        "Next",
+        "Expo",
+        "SQL",
+        "Docker",
+        "Figma"
     ],
     "ru": {
         "Education": [

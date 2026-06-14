@@ -1,0 +1,32 @@
+{
+    "aboutMe": {
+        "skills": "Skills",
+        "education": "Education",
+        "certificates": "Certificates",
+        "experience": "Experience",
+        "responsibilities": "Responsibilities",
+        "responsibilitiesChoose": "What to see the responsibilities choose a position from a column of experience",
+        "aboutMeInformation": "<p><span>Fullstack developer with 4 years of hands-on experience.</span> Grew from junior at BIV to middle at Selsup, then moved into freelancing and building my own products. <span>Single-handedly designed and launched an app on Play Market</span> — from Figma to deployment. <span>I build both websites and mobile apps</span> — I care about the product, not the platform. Currently looking for a team or startup: <span>I want to tackle more complex challenges</span> and grow alongside experienced colleagues, rather than hitting the ceiling of solo development.</p>"
+
+    },
+    "work": {
+        "selectProject": "Select project",
+        "projectDescription": "Project Description",
+        "description": "Description:",
+        "possibilities": "Possibilities:",
+        "stack": "Stack:",
+        "projectLink": "Project link",
+        "gitLink": "GitHub link",
+        "listProject": "List of projects"
+    },
+    "navigation": {
+        "aboutMe": "About Me",
+        "works": "Works",
+        "resume": "Resume",
+        "lan": "Eng",
+        "link": "https://drive.google.com/file/d/1k7NYBNqih24SsJMgQjUYcGi4ihjH_X_F/view?usp=sharing",
+        "enterYourEmail": "Enter your email",
+        "enterYourMessage": "Enter your message",
+        "submit": "Submit"
+    }
+}
